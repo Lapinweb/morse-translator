@@ -1,5 +1,16 @@
+body {
+   color: purple;
+   background-color: rgb(241, 210, 231);
+}
+
 #converter {
    display: flex;
+}
+
+#latin, #morse {
+   border: 2px solid purple;
+   border-radius: 5px;
+   width: 100%;
 }
 
 #buttons {
@@ -7,16 +18,22 @@
    flex-direction: column;
    justify-content: space-between;
    margin: 0 5px;
-   gap: 5px;
+   gap: 10px;
 }
 
 #buttons input {
-   background-color: pink;
+   background-color: rgb(237, 202, 237);
+   color: purple;
+   border-color: purple;
+   border-radius: 4px;
+   font-weight: bold;
 }
 
 #clear {
    margin: 10px 0;
-   background-color: skyblue;
-   color: blue;
+   background-color: rgb(237, 202, 237);;
+   border-color: purple;
+   border-radius: 4px;
+   color: purple;
    font-weight: bold;
 }
